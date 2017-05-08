@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DropletWaterTracker</string>
+    <string name="_74_oz">74 oz</string>
+    <string name="current_goal_is">Current Goal is</string>
+    <string name="custom_amount">Custom Amount</string>
+    <string name="recommended_amount_74_oz">Recommended Amount (74 oz)</string>
+    <string name="save">Save</string>
+    <string name="set_goal">Set Goal</string>
+    <string name="daily_goal">Daily Goal: </string>
+</resources>

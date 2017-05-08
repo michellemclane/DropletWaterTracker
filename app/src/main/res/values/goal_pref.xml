@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="num_goal_options">
+        <item> 74 </item>
+        <item> 84 </item>
+        <item> 94 </item>
+        <item> 104 </item>
+        <item> 114 </item>
+        <item> 124 </item>
+        <item> 134 </item>
+    </integer-array>
+</resources>

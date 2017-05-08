@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:id="@+id/linearLayout3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp">
+
+        <Button
+            android:id="@+id/goal_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Daily Goal"
+            android:textAlignment="viewStart"
+            android:textAllCaps="false"
+            android:textColor="#1A237E"
+            android:textSize="45sp"
+            android:textStyle="bold"></Button>
+
+        <TextView
+            android:id="@+id/daily_number"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:textAllCaps="false"
+            android:textColor="#EF5350"
+            android:text="74"
+            android:textSize="65sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/goal_label"
+            android:layout_centerHorizontal="true"></TextView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:layout_marginTop="190dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout4">
+        <TextView
+            android:id="@+id/current_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/linearLayout"
+            android:layout_alignStart="@+id/linearLayout2"
+            android:layout_marginLeft="30dp"
+            android:gravity="bottom"
+            android:text="Current:"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/remaining_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:paddingLeft="30dp"
+            android:text="Remaining:"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_above="@+id/linearLayout"
+            android:layout_alignEnd="@+id/linearLayout2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2979FF"
+        android:gravity="center"
+        android:weightSum="1"
+        android:id="@+id/linearLayout"
+        android:layout_below="@+id/linearLayout4"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/current_number"
+            android:layout_width="150dp"
+            android:layout_height="125dp"
+            android:layout_below="@+id/current_label"
+            android:layout_marginRight="70dp"
+            android:layout_weight="0.38"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingLeft="30dp"
+            android:textColor="@android:color/background_light"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/remaining_number"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_below="@+id/remaining_label"
+            android:layout_weight="0.21"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingRight="30dp"
+            android:textColor="@android:color/background_light"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp"
+        android:padding="5dp"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/water8_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:text="Add 8oz"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/water16_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="Add 16oz"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/water24_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginRight="20dp"
+            android:text="Add 24oz"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/undo_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Undo "
+        android:textSize="24sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

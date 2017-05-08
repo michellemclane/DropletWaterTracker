@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "66237862513",
+    "firebase_url": "https://dropletwatertracker.firebaseio.com",
+    "project_id": "dropletwatertracker",
+    "storage_bucket": "dropletwatertracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:66237862513:android:cd2444b1dbaeaa06",
+        "android_client_info": {
+          "package_name": "com.example.michellemclane.dropletwatertracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "66237862513-qqake6ha9lnv4165mvp7ga3k5ved983q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.michellemclane.dropletwatertracker",
+            "certificate_hash": "521bbd794f34de153a8366d67ea5cd167313af19"
+          }
+        },
+        {
+          "client_id": "66237862513-k5scvh20rophmlimjj65cg8lghqtkr4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtzK7YCqLCs2gFmg4bNqhM3OuF-XxMC1o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "66237862513-k5scvh20rophmlimjj65cg8lghqtkr4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

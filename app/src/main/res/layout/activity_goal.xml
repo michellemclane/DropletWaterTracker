@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/setGoal_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/set_goal"
+        android:textColor="#1A237E"
+        android:textSize="65sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:background="#2979FF"
+        android:id="@+id/linearLayout5"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginBottom="29dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGoalGroup"
+        android:layout_above="@+id/customOutput"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:textSize="30sp"
+        android:textColor="#FFEBEE"
+        android:textStyle="bold"
+        tools:ignore="ObsoleteLayoutParam,UselessParent"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/goSettings_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="visible"
+        app:srcCompat="?attr/homeAsUpIndicator"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/currentGoalOutput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/current_goal_is"
+        android:textColor="#EF5350"
+        android:textSize="28sp"
+        android:layout_above="@+id/linearLayout5"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
